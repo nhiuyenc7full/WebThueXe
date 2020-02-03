@@ -1,0 +1,122 @@
+﻿@model HKT2tr5.Models.IndexModelView
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<section class="ftco-section ftco-no-pb ftco-no-pt viewListXe">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="search-wrap-1 ftco-animate mb-5">
+                    <form method="post">
+                        <div class="row">
+                            <div class=" form-group col-2">
+                                <span class="col-5"> <label asp-for="@Model.SearchXeViewModel.TinhId" class="control-label">Tỉnh</label></span>
+                                <span class="col-7">
+                                    <select asp-for="@Model.SearchXeViewModel.TinhId" asp-items="ViewBag.TinhId" class="form-control">
+                                    </select>
+                                </span>
+                            </div>
+                            <div class=" form-group col-1">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" style="display:none;" asp-for="@Model.SearchXeViewModel.SearchAll" onclick="searchAll()" /> <i class="fas fa-filter"></i>
+                                </label>
+                            </div>
+
+                            <div class="searchAllDetails form-group col-2" style="display:none">
+                                <span class="col-5"> <label asp-for="@Model.SearchXeViewModel.LoaiXeId" class="control-label">Loại xe</label></span>
+                                <span class="col-7">
+                                    <select asp-for="@Model.SearchXeViewModel.LoaiXeId" asp-items="ViewBag.LoaiXeId" class="form-control">
+                                    </select>
+                                </span>
+                            </div>
+                            <div class="searchAllDetails form-group col-2" style="display:none">
+                                <span class="col-5"> <label asp-for="@Model.SearchXeViewModel.NhaSanXuatId" class="control-label">Hãng Xe</label></span>
+                                <span class="col-7">
+                                    <select asp-for="@Model.SearchXeViewModel.NhaSanXuatId" asp-items="ViewBag.NhaSanXuatId" onclick="getDongXes(this)" class="nsx form-control">
+                                    </select>
+                                </span>
+                            </div>
+                            <div class="searchAllDetails form-group col-2" style="display:none">
+                                <span class="col-5"> <label asp-for="@Model.SearchXeViewModel.DongXeId" class="control-label">Dòng xe</label></span>
+                                <span class="col-7">
+                                    <select asp-for="@Model.SearchXeViewModel.DongXeId" asp-items="ViewBag.DongXeId" class="DongXe form-control" onclick="getMauXes(this)">
+                                    </select>
+                                </span>
+                            </div>
+                            <div class="searchAllDetails form-group col-2" style="display:none">
+                                <span class="col-5"> <label asp-for="@Model.SearchXeViewModel.MauXeId" class="control-label">Màu Xe</label></span>
+                                <span class="col-7">
+                                    <select asp-for="@Model.SearchXeViewModel.MauXeId" asp-items="ViewBag.MauXeId" class="MauXe form-control">
+                                    </select>
+                                </span>
+                            </div>
+
+                            <div class="form-group col-1">
+                                <label class="form-check-label">
+                                    <input type="submit" style=" top: 40%;position: absolute; width: 102px;margin-left: inherit;" class="btn btn-primary form-control input-group" value="Tìm Kiếm" />
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section ">
+    <div class="container px-4">
+        <div class="row justify-content-center">
+            <div class="col-md-12 heading-section text-center  mb-5">
+                <span class="subheading">Ngân Hàng Siêu Xe</span>
+                <h2 class="mb-2">Chọn Xe Bạn Muốn Thuê</h2>
+            </div>
+        </div>
+        <div class="row">
+            @foreach (var item in Model.Xes)
+            {
+                if (!item.DaThue)
+                {
+                    <div class="col-md-3">
+                        <div class="car-wrap ftco-animate">
+                            <div class="img d-flex align-items-end info-sp">
+                                <a asp-action="Details" asp-route-id="@item.XeId" asp-controller="Xes"
+                                   class="btn btn-black btn-outline-black ml-1">
+                                    <img src="~/images/@item.ImageThanXe" style="display: block;" class="anhView" alt="anh" />
+                                    <div class="price-wrap d-flex" style="display: block;  top: 39%;  position:absolute">
+                                        <span class="rate">$@item.GiaTheoGio</span>
+                                        <p class="from-day">
+                                            <span>From</span>
+                                            <span>/Hours</span>
+                                        </p>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="text p-4 text-center">
+                                <h2 class="mb-0"><a href="#">@item.DongXe.TenDongXe</a></h2>
+                                <span>@item.DongXe.NhaSanXuat.TenNSX</span>
+                                <a id="thueXe2" asp-action="Index" asp-controller="ThueXe" asp-route-id="@item.XeId" asp-route-userEmail="@User.Identity.Name"
+                                   class="btn btn-black btn-outline-black mr-1">Thuê Xe</a>
+                                <a asp-action="Details" asp-route-id="@item.XeId" asp-controller="Xes"
+                                   class="btn btn-black btn-outline-black ml-1">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+            }
+        </div>
+    </div>
+</section>
+@*<script language="javascript">
+        var thueXe = document.getElementById("thueXe2");
+        thueXe.onclick = function () {
+            alert("Bạn đã gửi yêu cầu thuê xe thành công");
+        }
+    </script>*@
+
+
+

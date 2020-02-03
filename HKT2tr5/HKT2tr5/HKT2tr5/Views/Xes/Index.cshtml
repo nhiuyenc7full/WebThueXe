@@ -1,0 +1,245 @@
+﻿@model HKT2tr5.Models.IndexModelView
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<form method="post">
+    <div class="row">
+        <div class="form-group form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" asp-for="@Model.SearchXeViewModel.SearchAll" onclick="searchAll()" /> Tìm kiếm chi tiết
+            </label>
+        </div>
+    </div>
+    <div class="row">
+        <div class=" form-group col-3">
+            <span class="col-5"> <label asp-for="@Model.SearchXeViewModel.TinhId" class="control-label">Tỉnh</label></span>
+            <span class="col-7">
+                <select asp-for="@Model.SearchXeViewModel.TinhId" asp-items="ViewBag.TinhId" class="form-control">
+                </select>
+            </span>
+        </div>
+        <div class="searchAllDetails form-group col-3" style="display:none">
+            <span class="col-5"> <label asp-for="@Model.SearchXeViewModel.LoaiXeId" class="control-label">Loại xe</label></span>
+            <span class="col-7">
+                <select asp-for="@Model.SearchXeViewModel.LoaiXeId" asp-items="ViewBag.LoaiXeId" class="form-control">
+                </select>
+            </span>
+        </div>
+        <div class="searchAllDetails form-group col-3" style="display:none">
+            <span class="col-5"> <label asp-for="@Model.SearchXeViewModel.NhaSanXuatId" class="control-label">NSX</label></span>
+            <span class="col-7">
+                <select asp-for="@Model.SearchXeViewModel.NhaSanXuatId" asp-items="ViewBag.NhaSanXuatId" onclick="getDongXes(this)" class="nsx form-control">
+                </select>
+            </span>
+        </div>
+        <div class="searchAllDetails form-group col-3" style="display:none">
+            <span class="col-5"> <label asp-for="@Model.SearchXeViewModel.DongXeId" class="control-label">Dòng xe</label></span>
+            <span class="col-7">
+                <select asp-for="@Model.SearchXeViewModel.DongXeId" asp-items="ViewBag.DongXeId" class="DongXe form-control" onclick="getMauXes(this)">
+                </select>
+            </span>
+        </div>
+        <div class="searchAllDetails form-group col-3" style="display:none">
+            <span class="col-5"> <label asp-for="@Model.SearchXeViewModel.MauXeId" class="control-label">Màu</label></span>
+            <span class="col-7">
+                <select asp-for="@Model.SearchXeViewModel.MauXeId" asp-items="ViewBag.MauXeId" class="MauXe form-control">
+                </select>
+            </span>
+        </div>
+    </div>
+    <input type="submit" value="submit" />
+</form>
+
+
+<table class="table" id="tbXe">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Xe.Tittle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Xe.Rate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Xe.GiaTheoNgay)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Xe.Tinh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Xe.LoaiXe)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Xe.DongXe)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Xe.Mau)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Xe.DangKinhDoanh)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model.Xes)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tittle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NamSx)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GiaTheoNgay)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tinh.TenTinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LoaiXe.TenLoaiXe)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DongXe.TenDongXe) (@Html.DisplayFor(modelItem => item.DongXe.NhaSanXuat.TenNSX))
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mau)
+            </td>
+            @if (item.DangKinhDoanh)
+            {
+                <td>Cho thuê</td>
+            }
+            else
+            {
+                <td>Chưa cho thuê</td>
+            }
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.XeId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.XeId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.XeId">Delete</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+@section css{
+    <link href="~/lib/datatables/css/jquery.dataTables.css" rel="stylesheet" />
+}
+
+@section Scripts{
+    <script src="~/lib/datatables/js/jquery.dataTables.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#tbXe').DataTable();
+        });
+    </script>
+    <script src="~/js/JavaScript.js"></script>
+}
+
+
+
+
+
+
+
+
+@*@model IEnumerable<HKT2tr5.Models.Entities.Xe>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Tittle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NamSx)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GiaTheoGio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GiaTheoNgay)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tinh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DangKinhDoanh)
+            </th>
+            <th>
+                    @Html.DisplayNameFor(model => model.MauXe)
+                </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LoaiXe)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DongXe)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tittle)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NamSx)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.GiaTheoGio)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.GiaTheoNgay)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tinh.TenTinh)
+                </td>
+                @if (item.DangKinhDoanh)
+                {
+                    <td>Cho thuê</td>
+                }
+                else
+                {
+                    <td>Chưa cho thuê</td>
+                }
+                <td>
+                        @Html.DisplayFor(modelItem => item.MauXe.TenMauXe)
+                    </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LoaiXe.TenLoaiXe)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DongXe.TenDongXe)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.XeId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.XeId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.XeId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>*@
+

@@ -1,0 +1,131 @@
+﻿@model HKT2tr5.Models.EditXeViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+    //var photoPath = "~/images/" + (Model.ImagePath ?? "update.jpg");
+}
+
+<h1>Edit</h1>
+
+<h4>Xe</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="XeId" />
+            <div class="form-group">
+                <label asp-for="Tittle" class="control-label"></label>
+                <input asp-for="Tittle" class="form-control" />
+                <span asp-validation-for="Tittle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NamSx" class="control-label"></label>
+                <input asp-for="NamSx" class="form-control" />
+                <span asp-validation-for="NamSx" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GiaTheoGio" class="control-label"></label>
+                <input asp-for="GiaTheoGio" class="form-control" />
+                <span asp-validation-for="GiaTheoGio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GiaTheoNgay" class="control-label"></label>
+                <input asp-for="GiaTheoNgay" class="form-control" />
+                <span asp-validation-for="GiaTheoNgay" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DaThue" /> @Html.DisplayNameFor(model => model.DaThue)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="Rate" class="control-label"></label>
+                <input asp-for="Rate" class="form-control" />
+                <span asp-validation-for="Rate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TinhId" class="control-label"></label>
+                <select asp-for="TinhId" class="form-control" asp-items="ViewBag.TinhId"></select>
+                <span asp-validation-for="TinhId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LoaiXeId" class="control-label"></label>
+                <select asp-for="LoaiXeId" class="form-control" asp-items="ViewBag.LoaiXeId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="NhaSanXuatId" class="control-label"></label>
+                <select asp-for="NhaSanXuatId" class="nsx form-control" asp-items="ViewBag.NhaSanXuatId" onclick="getDongXes(this)"></select>
+            </div>
+            <div class="getdongxe form-group" style="display:none">
+                <label asp-for="DongXeId" class="control-label"></label>
+                <select asp-for="DongXeId" class="DongXe form-control" onclick="getMauXes(this)"></select>
+            </div>
+            <div class="getmauxe form-group" style="display:none">
+                <label asp-for="MauXeId" class="control-label"></label>
+                <select asp-for="MauXeId" class="MauXe form-control"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="DangKinhDoanh" class="control-label"></label>
+                <select asp-for="DangKinhDoanh" class="form-control">
+                    <option value="true">Cho thuê</option>
+                    <option value="false">Chưa cho thuê</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageDauXe" class="control-label"></label>
+                <div class="custom-file">
+                    <input type="file" asp-for="ImageDauXe" class="form-control custom-file-input" placeholder="Chọn ảnh sản phẩm" />
+                    <label class="custom-file-label">Chọn ảnh...</label>
+                    <span asp-validation-for="ImageDauXe" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageDuoiXe" class="control-label"></label>
+                <div class="custom-file">
+                    <input type="file" asp-for="ImageDuoiXe" class="form-control custom-file-input" placeholder="Chọn ảnh sản phẩm" />
+                    <label class="custom-file-label">Chọn ảnh...</label>
+                    <span asp-validation-for="ImageDuoiXe" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageNoiThatXe" class="control-label"></label>
+                <div class="custom-file">
+                    <input type="file" asp-for="ImageNoiThatXe" class="form-control custom-file-input" placeholder="Chọn ảnh sản phẩm" />
+                    <label class="custom-file-label">Chọn ảnh...</label>
+                    <span asp-validation-for="ImageNoiThatXe" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageThanXe" class="control-label"></label>
+                <div class="custom-file">
+                    <input type="file" asp-for="ImageThanXe" class="form-control custom-file-input" placeholder="Chọn ảnh sản phẩm" />
+                    <label class="custom-file-label">Chọn ảnh...</label>
+                    <span asp-validation-for="ImageThanXe" class="text-danger"></span>
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('.custom-file-input').on("change", function () {
+                var fileName = $(this).val().split("\\").pop();
+                $(this).next('.custom-file-label').html(fileName);
+            });
+        });
+    </script>
+    <script src="~/js/JavaScript.js"></script>
+}

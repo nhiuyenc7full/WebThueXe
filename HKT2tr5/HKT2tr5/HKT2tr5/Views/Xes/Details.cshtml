@@ -1,0 +1,106 @@
+﻿@model HKT2tr5.Models.Entities.Xe
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+<div class="recent-car single-car wow fadeIn" data-wow-delay="0.5s" data-wow-duration="1s">
+    <div class="container">
+        <h2 style="color:#ff0000; text-align:center">Chi Tiết Chiếc Xe</h2>
+        <div class="recent-car-content">
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="single-car" class="slider-pro">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="~/images/@Model.ImageDauXe" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="~/images/@Model.ImageDuoiXe" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="~/images/@Model.ImageThanXe" alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="~/images/@Model.ImageNoiThatXe" alt="Four slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+
+                        <div class="carousel">
+                            <div class="row">
+                                <div class=" active col-md-3 easyzoom easyzoom--overlay">
+                                    <img class="d-block  w-100" src="~/images/@Model.ImageDauXe" alt="First slide">
+                                </div>
+                                <div class="carousel col-md-3 zoom">
+                                    <img class="d-block  w-100" src="~/images/@Model.ImageDuoiXe" alt="Second slide">
+                                </div>
+                                <div class="carousel col-md-3 zoom">
+                                    <img class="d-block w-100" src="~/images/@Model.ImageThanXe" alt="Third slide">
+                                </div>
+                                <div class="carousel col-md-3 zoom">
+                                    <img class="d-block  w-100" src="~/images/@Model.ImageNoiThatXe" alt="Four slide">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="car-details">
+                        <h2 class="de">@Model.Tittle</h2>
+                         <div class="container">
+                            <div class="row">
+                                <div class="car-info col-md-6">
+                                    <p> <span class="gia">$@Model.GiaTheoGio/<span class="đ">giờ</span></span></p>
+                                    <p class="viewt"><i class="fas fa-car-side" style="color:#ff0000"></i> @Model.DongXe.NhaSanXuat.TenNSX</p>
+                                    <p class="viewt"><i class="far fa-calendar-alt"  style="color:#ff006e" ></i> @Model.NamSx</p>
+                                    <p class="viewt"><i class="fa fa-forward"  style="color:#ffd800"></i> @Model.LoaiXe.TenLoaiXe</p>
+                                </div>
+                                <div class="car-info col-md-6">
+                                    <p> <span class="gia">$@Model.GiaTheoNgay/ngày</span></p>
+                                    <p class="viewt"> <i class="fas fa-car-alt" style="color:#ff0000"></i> @Model.DongXe.TenDongXe</p>
+                                    <p class="viewt"><i class="fas fa-palette" style="color:#ff006e" ></i> @Model.Mau</p>
+                                    <p class="viewt"><i class="fas fa-city" style="color:#ffd800"> @Model.Tinh.TenTinh</i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="similar-info">
+                            <div class="primary-button">
+                                <a id="thueXe" asp-controller="ThueXe" asp-action="Index" asp-route-id="@Model.XeId" asp-route-userEmail="@User.Identity.Name"
+                                   asp-route-userName="@User.Identity.Name" class="btn btn-black btn-outline-black mr-1"  style="font-size:x-large;">
+                                Thuê Xe
+                                <i class="fas fa-dollar-sign"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*<script language="javascript">
+    var thueXe = document.getElementById("thueXe");
+    thueXe.onclick = function () {
+            alert("Bạn đã gửi yêu cầu thuê xe thành công");
+    }
+</script>*@
+

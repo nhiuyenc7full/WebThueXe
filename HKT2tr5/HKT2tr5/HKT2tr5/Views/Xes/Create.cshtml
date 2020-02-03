@@ -1,0 +1,125 @@
+﻿@model XeViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+<hr />
+<form asp-action="Create" enctype="multipart/form-data" class="he">
+    <h1 class="text-center">Thêm xe muốn cho thuê</h1><br /><br />
+    <div style="padding: 10px;" class="shadow-lg shadow">
+        <div class="row" style="padding: 10px; box-shadow: inset rgb(255, 106, 0) 2px 2px 20px 0px;">
+            <div class="col-md-6">
+                <br /><br />
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Tittle" class="control-label">Tiêu đề</label>
+                    <input asp-for="Tittle" class="form-control" placeholder="Tiêu đề..." />
+                    <span asp-validation-for="Tittle" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NamSx" class="control-label">Năm sản xuất</label>
+                    <input asp-for="NamSx" class="form-control" placeholder="Năm sản xuất..." />
+                    <span asp-validation-for="NamSx" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="GiaTheoGio" class="control-label">Giá thuê theo giờ</label>
+                    <input asp-for="GiaTheoGio" class="form-control" placeholder="Giá thuê theo giờ..." />
+                    <span asp-validation-for="GiaTheoGio" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="GiaTheoNgay" class="control-label">Giá thuê theo ngày</label>
+                    <input asp-for="GiaTheoNgay" class="form-control" placeholder="Giá thuê theo ngày..." />
+                    <span asp-validation-for="GiaTheoNgay" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ImageDauXe" class="control-label">Ảnh đầu xe</label>
+                    <div class="custom-file">
+                        <input asp-for="ImageDauXe" class="form-control custom-file-input" placeholder="Chọn ảnh sản phẩm" />
+                        <label class="custom-file-label">Chọn ảnh...</label>
+                        <span asp-validation-for="ImageDauXe" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ImageDuoiXe" class="control-label">Ảnh đuôi xe</label>
+                    <div class="custom-file">
+                        <input asp-for="ImageDuoiXe" class="form-control custom-file-input" placeholder="Chọn ảnh sản phẩm" />
+                        <label class="custom-file-label">Chọn ảnh...</label>
+                        <span asp-validation-for="ImageDuoiXe" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ImageNoiThatXe" class="control-label">Ảnh nội thất xe</label>
+                    <div class="custom-file">
+                        <input asp-for="ImageNoiThatXe" class="form-control custom-file-input" placeholder="Chọn ảnh sản phẩm" />
+                        <label class="custom-file-label">Chọn ảnh...</label>
+                        <span asp-validation-for="ImageNoiThatXe" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ImageThanXe" class="control-label">Ảnh thân xe</label>
+                    <div class="custom-file">
+                        <input asp-for="ImageThanXe" class="form-control custom-file-input" placeholder="Chọn ảnh sản phẩm" />
+                        <label class="custom-file-label">Chọn ảnh...</label>
+                        <span asp-validation-for="ImageThanXe" class="text-danger"></span>
+                    </div>
+                </div><br />
+            </div>
+            <div class="col-md-6">
+                <br /><br />
+                <div class="form-group">
+                    <label asp-for="TinhId" class="control-label">Khu vực cho thuê</label>
+                    <select asp-for="TinhId" class="form-control" asp-items="ViewBag.TinhId"></select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="LoaiXeId" class="control-label">Loại xe</label>
+                    <select asp-for="LoaiXeId" class="form-control" asp-items="ViewBag.LoaiXeId"></select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NhaSanXuatId" class="control-label">Nhà sản xuất</label>
+                    <select asp-for="NhaSanXuatId" class="nsx form-control" asp-items="ViewBag.NhaSanXuatId" onclick="getDongXes(this)"></select>
+                </div>
+                <div class="getdongxe form-group" style="display:none">
+                    <label asp-for="DongXeId" class="control-label">Dòng xe</label>
+                    <select asp-for="DongXeId" class="DongXe form-control" onclick="getMauXes(this)"></select>
+                </div>
+                <div class="getmauxe form-group" style="display:none">
+                    <label asp-for="MauXeId" class="control-label">Màu xe</label>
+                    <select asp-for="MauXeId" class="MauXe form-control"></select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DangKinhDoanh" class="control-label">Cho thuê ngay?</label>
+                    <select asp-for="DangKinhDoanh" class="form-control">
+                        <option value="true">Cho thuê</option>
+                        <option value="false">Chưa cho thuê</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <div class="form-group col-6">
+                        <input type="submit" value="Thêm xe" class="btn btn-primary" />
+                    </div>
+                    <div class="form-group col-6">
+                        <a asp-action="Index" class="btn btn-primary">Trở lại</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section css{
+    <link href="~/css/CreateXeView.css" rel="stylesheet" />
+ }
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('.custom-file-input').on("change", function () {
+                var fileName = $(this).val().split("\\").pop();
+                $(this).next('.custom-file-label').html(fileName);
+            });
+        });
+    </script>
+    <script src="~/js/JavaScript.js"></script>
+    <script src="~/js/CreateXeView.js"></script>
+}
+

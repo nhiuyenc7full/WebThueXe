@@ -1,0 +1,222 @@
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\appsettings.json
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\HKT2tr5.deps.json
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\HKT2tr5.runtimeconfig.json
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\HKT2tr5.runtimeconfig.dev.json
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\HKT2tr5.dll
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\HKT2tr5.pdb
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\HKT2tr5.Views.dll
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\HKT2tr5.Views.pdb
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.RazorAssemblyInfo.cache
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.RazorAssemblyInfo.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.AssemblyInfoInputs.cache
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.AssemblyInfo.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.TagHelpers.input.cache
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.TagHelpers.output.cache
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.RazorCoreGenerate.cache
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\BannerJQ\Index.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\DongXes\Create.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\DongXes\Delete.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\DongXes\Details.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\DongXes\Edit.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\DongXes\Index.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\LoaiXes\Create.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\LoaiXes\Delete.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\LoaiXes\Details.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\LoaiXes\Edit.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\LoaiXes\Index.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauDongXes\Create.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauDongXes\Delete.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauDongXes\Details.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauDongXes\Edit.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauDongXes\Index.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauXes\Create.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauXes\Delete.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauXes\Details.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauXes\Edit.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauXes\Index.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\NhaSanXuats\Create.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\NhaSanXuats\Delete.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\NhaSanXuats\Details.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\NhaSanXuats\Edit.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\NhaSanXuats\Index.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LayoutViewAll.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Tinhs\Create.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Tinhs\Delete.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Tinhs\Details.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Tinhs\Edit.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Tinhs\Index.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\ViewXe\Details.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\ViewXe\Index.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\ViewXe\Index1.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Xes\Create.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Xes\Delete.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Xes\Details.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Xes\Edit.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Xes\Index.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.RazorTargetAssemblyInfo.cache
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.RazorTargetAssemblyInfo.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.Views.pdb
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.dll
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.pdb
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.csproj.CopyComplete
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.csprojAssemblyReference.cache
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.cshtml.g.cs
+D:\Module 2\HACKTHON\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\appsettings.json
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\HKT2tr5.deps.json
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\HKT2tr5.runtimeconfig.json
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\HKT2tr5.runtimeconfig.dev.json
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\HKT2tr5.dll
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\HKT2tr5.pdb
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\HKT2tr5.Views.dll
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\HKT2tr5.Views.pdb
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.csprojAssemblyReference.cache
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.RazorAssemblyInfo.cache
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.RazorAssemblyInfo.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.AssemblyInfoInputs.cache
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.AssemblyInfo.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.TagHelpers.input.cache
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.TagHelpers.output.cache
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.RazorCoreGenerate.cache
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\BannerJQ\Index.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\DongXes\Create.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\DongXes\Delete.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\DongXes\Details.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\DongXes\Edit.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\DongXes\Index.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\LoaiXes\Create.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\LoaiXes\Delete.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\LoaiXes\Details.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\LoaiXes\Edit.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\LoaiXes\Index.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauDongXes\Create.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauDongXes\Delete.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauDongXes\Details.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauDongXes\Edit.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauDongXes\Index.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauXes\Create.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauXes\Delete.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauXes\Details.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauXes\Edit.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauXes\Index.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\NhaSanXuats\Create.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\NhaSanXuats\Delete.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\NhaSanXuats\Details.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\NhaSanXuats\Edit.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\NhaSanXuats\Index.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LayoutViewAll.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Tinhs\Create.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Tinhs\Delete.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Tinhs\Details.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Tinhs\Edit.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Tinhs\Index.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\ViewXe\Details.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\ViewXe\Index.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\ViewXe\Index1.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Xes\Create.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Xes\Delete.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Xes\Details.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Xes\Edit.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Xes\Index.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.RazorTargetAssemblyInfo.cache
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.RazorTargetAssemblyInfo.cs
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.Views.pdb
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.dll
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.pdb
+D:\C7\Module2\WebApp\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.csproj.CopyComplete
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\appsettings.json
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\HKT2tr5.deps.json
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\HKT2tr5.runtimeconfig.json
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\HKT2tr5.runtimeconfig.dev.json
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\HKT2tr5.dll
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\HKT2tr5.pdb
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\HKT2tr5.Views.dll
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\bin\Debug\netcoreapp2.2\HKT2tr5.Views.pdb
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.csprojAssemblyReference.cache
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.RazorAssemblyInfo.cache
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.RazorAssemblyInfo.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.AssemblyInfoInputs.cache
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.AssemblyInfo.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.TagHelpers.input.cache
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.TagHelpers.output.cache
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.RazorCoreGenerate.cache
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\BannerJQ\Index.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\DongXes\Create.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\DongXes\Delete.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\DongXes\Details.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\DongXes\Edit.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\DongXes\Index.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\LoaiXes\Create.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\LoaiXes\Delete.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\LoaiXes\Details.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\LoaiXes\Edit.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\LoaiXes\Index.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauDongXes\Create.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauDongXes\Delete.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauDongXes\Details.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauDongXes\Edit.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauDongXes\Index.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauXes\Create.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauXes\Delete.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauXes\Details.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauXes\Edit.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\MauXes\Index.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\NhaSanXuats\Create.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\NhaSanXuats\Delete.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\NhaSanXuats\Details.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\NhaSanXuats\Edit.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\NhaSanXuats\Index.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LayoutViewAll.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Tinhs\Create.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Tinhs\Delete.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Tinhs\Details.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Tinhs\Edit.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Tinhs\Index.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\ViewXe\Details.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\ViewXe\Index.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\ViewXe\Index1.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Xes\Create.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Xes\Delete.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Xes\Details.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Xes\Edit.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\Xes\Index.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.RazorTargetAssemblyInfo.cache
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.RazorTargetAssemblyInfo.cs
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.Views.pdb
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.dll
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.pdb
+D:\C7\HKT2tr5\HKT2tr5\HKT2tr5\obj\Debug\netcoreapp2.2\HKT2tr5.csproj.CopyComplete

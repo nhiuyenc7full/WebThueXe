@@ -1,0 +1,30 @@
+﻿@model HKT2tr5.Models.Entities.MauDongXe
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>MauDongXe</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MauXe)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MauXe.MauXeId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DongXe)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DongXe.DongXeId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.MauDongXeId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
